@@ -10,6 +10,8 @@ sudo npm install -g download-git-repo-cli
 download-git-repo github:becodeorg/becode-js-web-template <your project name>
 cd <your project name>
 git init
+git add .
+git commit -m "Initial commit"
 ```
 
 ## Usage guide
