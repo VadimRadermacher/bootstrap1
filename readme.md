@@ -15,7 +15,7 @@ git commit -m "Initial commit"
 npm install
 ```
 
-Then setup your repository on Github and publish this first version.
+Then setup a new repository on Github and publish this first version.
 
 ## Usage guide
 
