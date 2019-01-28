@@ -12,6 +12,7 @@ cd <your project name>
 git init
 git add .
 git commit -m "Initial commit"
+npm install
 ```
 
 Then setup your repository on Github and publish this first version.
