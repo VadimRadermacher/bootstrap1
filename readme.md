@@ -3,7 +3,11 @@
 
 Hello ! This is a simple template to use in Becode's JavaScript exercises.
 
-Simply copy the whole folder and modify what you want for each exercise.
+## Starting a new project from this template
+
+'''bash
+
+'''
 
 ## Usage guide
 
