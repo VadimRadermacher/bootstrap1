@@ -14,6 +14,8 @@ git add .
 git commit -m "Initial commit"
 ```
 
+Then setup your repository on Github and publish this first version.
+
 ## Usage guide
 
 ### Installing dependencies
