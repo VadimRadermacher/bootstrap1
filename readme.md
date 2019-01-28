@@ -5,8 +5,11 @@ Hello ! This is a simple template to use in Becode's JavaScript exercises.
 
 ## Starting a new project from this template
 
-'''bash
-
+```bash
+sudo npm install -g download-git-repo-cli
+download-git-repo github:becodeorg/becode-js-web-template <your project name>
+cd <your project name>
+git init
 '''
 
 ## Usage guide
