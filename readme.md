@@ -47,9 +47,9 @@ If you want to deploy this website for real you must first build it with this co
 npm run build
 ```
 
-It will then be available in the `docs` folder.
+The result of the build will then be available in the `docs` folder. Then commit and push.
 
-Then commit and push. As long as your project as been properly configured to enable Github Pages on the 'docs' folder it will be published.
+As long as your project as been properly configured to enable Github Pages on the 'docs' folder it will be published.
 
 ## Files
 
