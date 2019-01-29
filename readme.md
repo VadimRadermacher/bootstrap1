@@ -39,7 +39,7 @@ npm run dev
 
 Your application can then be consulted at `http://localhost:1234`.
 
-### Building for production
+### Building for publish on Github Pages
 
 If you want to deploy this website for real you must first build it with this command:
 
@@ -47,7 +47,9 @@ If you want to deploy this website for real you must first build it with this co
 npm run build
 ```
 
-It will then be available in the `dist` folder.
+It will then be available in the `docs` folder.
+
+Then commit and push. As long as your project as been properly configured to enable Github Pages on the 'docs' folder it will be published.
 
 ## Files
 
