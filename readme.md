@@ -39,7 +39,7 @@ npm run dev
 
 Your application can then be consulted at `http://localhost:1234`.
 
-### Building the project and publish on Github Pages
+### Building the project and publishing on Github Pages
 
 If you want to deploy this website for real you must first build it with this command:
 
