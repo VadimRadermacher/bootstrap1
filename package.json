@@ -4,7 +4,7 @@
   "description": "A simple template to use in Becode's JavaScript exercises.",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html --public-url ./"
+    "build": "parcel build index.html --public-url ./ --out-dir docs"
   },
   "author": "",
   "license": "ISC",
