@@ -49,7 +49,7 @@ npm run build
 
 The result of the build will then be available in the `docs` folder. Then commit and push.
 
-As long as your project as been properly configured to enable Github Pages on the 'docs' folder it will be published.
+As long as your project as been properly configured to enable Github Pages on the `docs` folder it will be published.
 
 ## Files
 
