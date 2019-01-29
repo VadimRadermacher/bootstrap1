@@ -3,7 +3,19 @@
 
 Hello ! This is a simple template to use in Becode's JavaScript exercises.
 
-Simply copy the whole folder and modify what you want for each exercise.
+## Starting a new project from this template
+
+```bash
+sudo npm install -g download-git-repo-cli
+download-git-repo github:becodeorg/becode-js-web-template <your project name>
+cd <your project name>
+git init
+git add .
+git commit -m "Initial commit"
+npm install
+```
+
+Then setup a new repository on Github and publish this first version.
 
 ## Usage guide
 
