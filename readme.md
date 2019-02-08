@@ -79,7 +79,7 @@ Everything will be processed by Parcel and all `.njk` files will be replaced by 
 
 ## Files
 
-* [index.njk](./index.njk): The main [Nunjucks template](https://mozilla.github.io/nunjucks/) of the application.
+* [index.njk](./index.njk): The main page of the application.
 * [_common.njk](./_common.njk): The Nunjucks template containing the common interface elements that should appear on all pages. Don't forget to modify the title of the exercise!
 * [style.scss](./style.scss): A [SCSS](https://sass-lang.com/) file that will automatically be compiled to CSS to be loaded by the HTML file. Useful if you want to add some custom CSS.
 * [script.js](./script.js): A JavaScript file that is loaded by the HTML file. Modify this for every exercise.
