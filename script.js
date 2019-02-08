@@ -5,9 +5,6 @@ import "babel-polyfill"
 // import bootstrap's javascript part
 import 'bootstrap';
 
-// import the style
-import "./style.scss";
-
 /*
   Put the JavaScript code you want below.
 */
