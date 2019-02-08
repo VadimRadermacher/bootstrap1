@@ -1,10 +1,12 @@
+{# The base skeleton template for all pages #}
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>BeCode/JavaScript for the Web Exercise</title>
+    <title>BeCode / JavaScript for the Web Exercise</title>
 
     <link rel="icon" href="./_shared/img/becode-seal.png" />
 
@@ -16,19 +18,9 @@
 
   </head>
   <body>
-    <div class="container">
-      <header>
-        <h1>BeCode / JavaScript for the Web</h1>
-        <h2>
-          <strong><i class="fas fa-arrow-right"></i> Insert exercise name here <i class="fas fa-arrow-left"></i></strong>
-        </h2>
-      </header>
-      <div class="content">
-        <p>
-          <i class="fas fa-arrow-right"></i> Insert content here. <i class="fas fa-arrow-left"></i>
-        </p>
-      </div>
-    </div>
+    
+    {% block body %}
+    {% endblock %}
 
     <script src="./script.js"></script>
   </body>
