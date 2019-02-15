@@ -1,0 +1,84 @@
+{# The main page of the application #}
+
+{% extends "_common.njk" %}
+
+{% block content %}
+
+<div id="teamMates1">
+<div class="card text-white bg-primary mb-3" id="nadine" style="max-width: 20rem;">
+  <div class="card-header">Management</div>
+  <div class="card-body">
+    <h4 class="card-title">Nadine</h4>
+    <img class="vigns" src="/_shared/img/nadine.jpg" >
+    <p class="card-text"><quote><em>"Our projects are constantly growing."</em></quote></p>
+  </div>
+</div>
+<div class="card text-white bg-secondary mb-3" id="matthieu" style="max-width: 20rem;">
+  <div class="card-header">Directory</div>
+  <div class="card-body">
+    <h4 class="card-title">Matthieu</h4>
+    <img src="/_shared/img/matthieu.jpg" class="vigns">
+    <p class="card-text"><quote><em>"We bring you the best quality content."</em></quote></p>
+  </div>
+</div>
+<div class="card text-white bg-success mb-3" id="sam" style="max-width: 20rem;">
+  <div class="card-header">Coordination</div>
+  <div class="card-body">
+    <h4 class="card-title">Samuel</h4>
+    <img src="/_shared/img/sam.png" class="vigns">
+    <p class="card-text"><quote><em>"We make the best choices to satisfy you."</em></quote</p>
+  </div>
+</div>
+</div>
+<div id ="teamMates2">
+<div class="card text-white bg-danger mb-3" id="christophe" style="max-width: 20rem;">
+  <div class="card-header">Developpement</div>
+  <div class="card-body">
+    <h4 class="card-title">Christophe</h4>
+    <img src="/_shared/img/christophe.jpg" class="vigns">
+    <p class="card-text"><quote><em>"I'm a simple man, just doing my job and lovin'it."</em></quote></p>
+  </div>
+</div>
+<div class="card text-white bg-warning mb-3" id="ludivine" style="max-width: 20rem;">
+  <div class="card-header">Marketing</div>
+  <div class="card-body">
+    <h4 class="card-title">Ludivine</h4>
+    <img src="/_shared/img/ludivine.png" class="vigns">
+    <p class="card-text"><quote><em>"Research gives us the tools to make our growth better each year."</em></quote></p>
+  </div>
+</div>
+<div class="card text-white bg-info mb-3" id="nabil" style="max-width: 20rem;">
+  <div class="card-header">Communication</div>
+  <div class="card-body">
+    <h4 class="card-title">Nabil</h4>
+    <img src="/_shared/img/nabil.png" class="vigns">
+    <p class="card-text"><quote><em>"We can't imagine our future without you."</em></quote></p>
+  </div>
+</div>
+</div>
+<footer class="page-footer font-small teal pt-4">
+    <div class="container-fluid text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase font-weight-bold">All right reserved</h5>
+          <p class="rights">innovation.io isn't responsible about how you'll use this website. For more informations, read the <b>terms of use</b></p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-6 mb-md-0 mb-3">
+
+         <!-- Content -->
+         <h5 class="text-uppercase font-weight-bold">Our pages</h5>
+         <ul>
+         <li><a href="index.njk">Home</a></li>
+         <li><a href="teampage.njk">Team</a></li>
+         <li><a href="contactpage.njk">Contact</a></li>
+         </ul>
+
+       </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href="https://innovation.io"> innovation.io</a>
+    </div>
+  </footer>
+{% endblock %}

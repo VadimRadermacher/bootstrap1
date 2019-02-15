@@ -4,7 +4,75 @@
 */
 @import "./_shared/scss/theme.scss";
 
+
+
+@media screen and (max-width: 900px) {
+    #text-block1 {
+      bottom:2.7rem;
+      right:2.8rem;
+      h1 {
+        font-size:5vw;
+      }
+      p {
+        font-size:5vw;
+      }
+    }
+}
+@media screen and (max-width: 900px) {
+    #text-block2 {
+      bottom:2.5rem;
+      right:1.2rem;
+      h1 {
+        font-size:5vw;
+      }
+      p {
+        font-size:5vw;
+        max-width:80vw;
+      }
+    }
+}
+@media screen and (max-width: 900px) {
+    #text-block3 {
+      bottom:2.2rem;
+      right:1rem;
+      h1 {
+        font-size:5vw;
+      }
+      p {
+        font-size:5vw;
+      }
+    }
+}
+.vigns {
+  width:10rem;
+  max-height:10rem;
+}
+#nadine {
+  min-width:20rem;
+}
+#matthieu{
+  min-width: 20rem;
+}
+#sam {
+  min-width: 20rem;
+}
+#christophe {
+  min-width: 20rem;
+}
+#ludivine {
+  min-width: 20rem;
+}
+#nabil {
+  min-width:20rem;
+}
+@media screen and (max-width:500px){
+  #nabile {
+    display:none;
+  }
+}
+#map-container-google-1 {
+  margin-bottom:0rem;
+}
 /*
   If you need some CSS for any reason you can put it here.
 */
-
